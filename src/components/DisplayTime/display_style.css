@@ -1,0 +1,21 @@
+h1 {
+    font-size: 15vw;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.twenty_seg_display {
+    text-shadow: transparent;
+    color: #b32525;
+}
+
+.ten_seg_display {
+    color: #b32525;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

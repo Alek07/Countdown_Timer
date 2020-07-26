@@ -1,0 +1,9 @@
+.btn_start, .btn_reset {
+    width: 120px;
+    height: 120px;
+}
+
+.btn_stop, .btn_resume {
+    width: 100px;
+    height: 100px;
+}
